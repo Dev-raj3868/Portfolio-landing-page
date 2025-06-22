@@ -29,14 +29,14 @@ const Navigation = () => {
       scrolled ? 'glass-card backdrop-blur-lg' : 'bg-transparent'
     }`}>
       <div className="container mx-auto px-4 sm:px-6">
-        <div className="flex items-center justify-between h-16">
-          {/* Logo */}
+        <div className="flex items-center justify-between h-20">
+          {/* Logo - Made larger and more visible */}
           <div className="flex items-center">
             <div className="flex items-center space-x-3">
               <img 
                 src="/lovable-uploads/e4513a62-d401-4e9d-9a53-ed044c87ea1a.png" 
                 alt="Logo"
-                className="w-10 h-10 sm:w-12 sm:h-12 rounded-full"
+                className="w-16 h-16 sm:w-20 sm:h-20 rounded-full object-cover"
               />
             </div>
           </div>
@@ -78,7 +78,7 @@ const Navigation = () => {
 
         {/* Mobile Sidebar Navigation */}
         {isOpen && (
-          <div className="lg:hidden fixed inset-0 top-16 z-40">
+          <div className="lg:hidden fixed inset-0 top-20 z-40">
             <div className="glass-card h-full w-80 max-w-[90vw] p-6 animate-slide-in-left">
               {/* Profile Section */}
               <div className="mb-8 pb-6 border-b border-white/10">
@@ -86,7 +86,7 @@ const Navigation = () => {
                   <img 
                     src="/lovable-uploads/e4513a62-d401-4e9d-9a53-ed044c87ea1a.png" 
                     alt="Akash Nayar"
-                    className="w-12 h-12 rounded-full"
+                    className="w-16 h-16 rounded-full object-cover"
                   />
                   <div>
                     <div className="text-white font-semibold">I'M AKASH NAYAR</div>

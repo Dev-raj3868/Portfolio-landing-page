@@ -19,22 +19,14 @@ const Index = () => {
           <Hero />
         </section>
         
-        <Testimonials />
         <WhatIDo />
+        <Testimonials />
         <About />
         <Resume />
         <Projects />
         <Skills />
         <Contact />
       </main>
-
-      <footer className="glass-card border-t border-white/10 py-6 sm:py-8 mt-16 sm:mt-20">
-        <div className="container mx-auto px-4 sm:px-6 text-center">
-          <p className="text-gray-400 text-sm sm:text-base">
-            © 2024 AKASH NAYAR Portfolio. Built with ❤️ using React & Tailwind CSS
-          </p>
-        </div>
-      </footer>
     </div>
   );
 };
