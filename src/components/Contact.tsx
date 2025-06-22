@@ -16,7 +16,7 @@ const Contact = () => {
             <div className="flex justify-center mb-8">
               <div className="w-80 h-64 rounded-lg overflow-hidden">
                 <img 
-                  src="/lovable-uploads/17aaa429-5c3b-4a35-a438-714dc25c2d9b.png" 
+                  src="/lovable-uploads/1511a37e-4d11-4f0a-ab38-a5f4f271264f.png"
                   alt="Akash Nayar"
                   className="w-full h-full object-cover"
                 />

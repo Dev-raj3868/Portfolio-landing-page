@@ -18,8 +18,8 @@ const Hero = () => {
           <div className="mb-8">
             <div className="w-80 h-80 mx-auto mb-8 rounded-full overflow-hidden animate-scale-in shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face" 
-                alt="Professional Developer"
+                src="/lovable-uploads/496c8a43-777b-4a91-89af-42fa3856b8b8.png"
+                alt="Akash Nayar"
                 className="w-full h-full object-cover"
               />
             </div>
