@@ -29,14 +29,14 @@ const Navigation = () => {
       scrolled ? 'glass-card backdrop-blur-lg' : 'bg-transparent'
     }`}>
       <div className="container mx-auto px-4 sm:px-6">
-        <div className="flex items-center justify-between h-20">
-          {/* Logo - Made larger and more visible */}
+        <div className="flex items-center justify-between h-24">
+          {/* Logo - Made much larger and more prominent */}
           <div className="flex items-center">
             <div className="flex items-center space-x-3">
               <img 
                 src="/lovable-uploads/e4513a62-d401-4e9d-9a53-ed044c87ea1a.png" 
                 alt="Logo"
-                className="w-16 h-16 sm:w-20 sm:h-20 rounded-full object-cover"
+                className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-full object-cover border-2 border-white/20 shadow-lg"
               />
             </div>
           </div>
@@ -78,7 +78,7 @@ const Navigation = () => {
 
         {/* Mobile Sidebar Navigation */}
         {isOpen && (
-          <div className="lg:hidden fixed inset-0 top-20 z-40">
+          <div className="lg:hidden fixed inset-0 top-24 z-40">
             <div className="glass-card h-full w-80 max-w-[90vw] p-6 animate-slide-in-left">
               {/* Profile Section */}
               <div className="mb-8 pb-6 border-b border-white/10">
