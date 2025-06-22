@@ -17,9 +17,9 @@ const Navigation = () => {
 
   const navItems = [
     { name: 'HOME', href: '#home' },
-    { name: 'FEATURES', href: '#about' },
+    { name: 'FEATURES', href: '#features' },
     { name: 'PORTFOLIO', href: '#projects' },
-    { name: 'RESUME', href: '#skills' },
+    { name: 'RESUME', href: '#resume' },
     { name: 'CONTACT', href: '#contact' },
     { name: 'Hire Now', href: '#contact', isButton: true }
   ];
@@ -28,26 +28,22 @@ const Navigation = () => {
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       scrolled ? 'glass-card backdrop-blur-lg' : 'bg-transparent'
     }`}>
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
             <div className="flex items-center space-x-3">
               <img 
                 src="/lovable-uploads/e4513a62-d401-4e9d-9a53-ed044c87ea1a.png" 
-                alt="Akash Nayar"
-                className="w-12 h-12 rounded-full"
+                alt="Logo"
+                className="w-10 h-10 sm:w-12 sm:h-12 rounded-full"
               />
-              <div>
-                <div className="text-lg font-bold text-white">AKASH</div>
-                <div className="text-lg font-bold text-white">NAYAR</div>
-              </div>
             </div>
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:block">
-            <div className="flex items-center space-x-8">
+          <div className="hidden lg:block">
+            <div className="flex items-center space-x-6 xl:space-x-8">
               {navItems.map((item) => (
                 <a
                   key={item.name}
@@ -68,7 +64,7 @@ const Navigation = () => {
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <Button
               variant="ghost"
               size="sm"
@@ -82,8 +78,8 @@ const Navigation = () => {
 
         {/* Mobile Sidebar Navigation */}
         {isOpen && (
-          <div className="md:hidden fixed inset-0 top-16 z-40">
-            <div className="glass-card h-full w-80 p-6 animate-slide-in-left">
+          <div className="lg:hidden fixed inset-0 top-16 z-40">
+            <div className="glass-card h-full w-80 max-w-[90vw] p-6 animate-slide-in-left">
               {/* Profile Section */}
               <div className="mb-8 pb-6 border-b border-white/10">
                 <div className="flex items-center space-x-3 mb-4">
@@ -93,7 +89,7 @@ const Navigation = () => {
                     className="w-12 h-12 rounded-full"
                   />
                   <div>
-                    <div className="text-white font-semibold">I'M Akash Nayar</div>
+                    <div className="text-white font-semibold">I'M AKASH NAYAR</div>
                     <div className="text-gray-400 text-sm">A Lead Website Developer based</div>
                     <div className="text-gray-400 text-sm">in INDIA</div>
                   </div>
