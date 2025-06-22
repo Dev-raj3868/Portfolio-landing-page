@@ -6,7 +6,7 @@ const Resume = () => {
 
   const tabs = [
     { id: 'education', label: 'Education' },
-    { id: skills', label: 'Professional Skills' },
+    { id: 'skills', label: 'Professional Skills' },
     { id: 'experience', label: 'Experience' }
   ];
 
