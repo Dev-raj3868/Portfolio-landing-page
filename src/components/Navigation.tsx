@@ -21,7 +21,7 @@ const Navigation = () => {
     { name: 'PORTFOLIO', href: '#projects' },
     { name: 'RESUME', href: '#skills' },
     { name: 'CONTACT', href: '#contact' },
-    { name: 'WHATSAPP', href: '#whatsapp' }
+    { name: 'Hire Now', href: '#contact', isButton: true }
   ];
 
   return (
@@ -34,13 +34,13 @@ const Navigation = () => {
           <div className="flex items-center">
             <div className="flex items-center space-x-3">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=50&h=50&fit=crop&crop=face" 
+                src="/lovable-uploads/e4513a62-d401-4e9d-9a53-ed044c87ea1a.png" 
                 alt="Akash Nayar"
-                className="w-10 h-10 rounded-full"
+                className="w-12 h-12 rounded-full"
               />
               <div>
                 <div className="text-lg font-bold text-white">AKASH</div>
-                <div className="text-lg font-bold glow-text">NAYAR</div>
+                <div className="text-lg font-bold text-white">NAYAR</div>
               </div>
             </div>
           </div>
@@ -48,14 +48,20 @@ const Navigation = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="flex items-center space-x-8">
-              {navItems.slice(0, 5).map((item) => (
+              {navItems.map((item) => (
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-gray-300 hover:text-white transition-colors duration-200 relative group text-sm font-medium"
+                  className={`transition-colors duration-200 relative group text-sm font-medium ${
+                    item.isButton 
+                      ? 'bg-yellow-500 text-black px-4 py-2 rounded hover:bg-yellow-400' 
+                      : 'text-gray-300 hover:text-white'
+                  }`}
                 >
                   {item.name}
-                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-500 to-purple-600 transition-all duration-300 group-hover:w-full"></span>
+                  {!item.isButton && (
+                    <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-500 to-purple-600 transition-all duration-300 group-hover:w-full"></span>
+                  )}
                 </a>
               ))}
             </div>
@@ -82,7 +88,7 @@ const Navigation = () => {
               <div className="mb-8 pb-6 border-b border-white/10">
                 <div className="flex items-center space-x-3 mb-4">
                   <img 
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face" 
+                    src="/lovable-uploads/e4513a62-d401-4e9d-9a53-ed044c87ea1a.png" 
                     alt="Akash Nayar"
                     className="w-12 h-12 rounded-full"
                   />
