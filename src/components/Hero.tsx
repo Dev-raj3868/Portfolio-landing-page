@@ -1,10 +1,10 @@
 
-import { Github, Linkedin, Mail, Download, ArrowDown } from 'lucide-react';
+import { Github, Linkedin, Mail, Facebook, Instagram } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-16">
       {/* Animated background elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-20 w-72 h-72 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-float"></div>
@@ -14,62 +14,65 @@ const Hero = () => {
 
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="animate-slide-up">
+          {/* Professional Photo */}
           <div className="mb-8">
-            <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 p-1 animate-scale-in">
-              <div className="w-full h-full rounded-full bg-gray-900 flex items-center justify-center">
-                <span className="text-4xl font-bold glow-text">DN</span>
-              </div>
+            <div className="w-80 h-80 mx-auto mb-8 rounded-full overflow-hidden animate-scale-in shadow-2xl">
+              <img 
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face" 
+                alt="Professional Developer"
+                className="w-full h-full object-cover"
+              />
             </div>
-            
-            <h1 className="text-6xl md:text-8xl font-bold mb-4 animate-slide-in-left">
-              <span className="glow-text">Developer</span>
+          </div>
+
+          {/* Introduction Text */}
+          <div className="mb-8">
+            <h1 className="text-4xl md:text-6xl font-bold mb-4 animate-slide-in-left">
+              Hi, I'm <span className="glow-text">Akash Nayar</span>
             </h1>
-            <h2 className="text-4xl md:text-6xl font-bold mb-6 animate-slide-in-right" style={{animationDelay: '0.2s'}}>
-              & <span className="text-white">Creative</span>
+            <h2 className="text-2xl md:text-4xl font-bold mb-6 text-white animate-slide-in-right" style={{animationDelay: '0.2s'}}>
+              a Professional Coder.
             </h2>
           </div>
 
-          <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed animate-fade-in" style={{animationDelay: '0.4s'}}>
-            Full-stack developer passionate about creating exceptional digital experiences 
-            with modern technologies and clean, efficient code.
+          <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed animate-fade-in" style={{animationDelay: '0.4s'}}>
+            I design and develop websites for customers of all sizes, specializing in creating stylish, 
+            modern websites, web services, online stores, LMS Solutions. My passion is to design 
+            digital user experiences through the bold interface and meaningful interactions.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 animate-slide-up" style={{animationDelay: '0.6s'}}>
-            <Button 
-              size="lg" 
-              className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-8 py-3 rounded-full hover-glow transition-all duration-300"
-            >
-              <Download className="mr-2 h-5 w-5" />
-              Download Resume
-            </Button>
-            
-            <div className="flex gap-4">
+          {/* Find With Me Section */}
+          <div className="mb-12 animate-slide-up" style={{animationDelay: '0.6s'}}>
+            <h3 className="text-sm uppercase tracking-wider text-gray-400 mb-4">FIND WITH ME</h3>
+            <div className="flex gap-4 justify-center">
               <Button 
                 variant="outline" 
                 size="lg" 
-                className="glass-card border-white/20 hover:border-white/40 text-white rounded-full hover-glow"
+                className="glass-card border-white/20 hover:border-white/40 text-white rounded-lg hover-glow w-16 h-16"
               >
-                <Github className="h-5 w-5" />
+                <Facebook className="h-6 w-6" />
               </Button>
               <Button 
                 variant="outline" 
                 size="lg" 
-                className="glass-card border-white/20 hover:border-white/40 text-white rounded-full hover-glow"
+                className="glass-card border-white/20 hover:border-white/40 text-white rounded-lg hover-glow w-16 h-16"
               >
-                <Linkedin className="h-5 w-5" />
+                <Instagram className="h-6 w-6" />
               </Button>
               <Button 
                 variant="outline" 
                 size="lg" 
-                className="glass-card border-white/20 hover:border-white/40 text-white rounded-full hover-glow"
+                className="glass-card border-white/20 hover:border-white/40 text-white rounded-lg hover-glow w-16 h-16"
               >
-                <Mail className="h-5 w-5" />
+                <Linkedin className="h-6 w-6" />
               </Button>
             </div>
           </div>
 
-          <div className="animate-bounce">
-            <ArrowDown className="h-8 w-8 mx-auto text-gray-400 animate-glow" />
+          {/* Features Section Title */}
+          <div className="animate-fade-in" style={{animationDelay: '0.8s'}}>
+            <h3 className="text-sm uppercase tracking-wider text-gray-400 mb-4">FEATURES</h3>
+            <h2 className="text-3xl md:text-5xl font-bold text-white">What I Do</h2>
           </div>
         </div>
       </div>
