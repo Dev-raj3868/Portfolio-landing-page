@@ -80,13 +80,13 @@ const Navigation = () => {
         {isOpen && (
           <div className="lg:hidden fixed inset-0 top-20 z-40">
             <div className="glass-card h-full w-80 max-w-[90vw] p-6 animate-slide-in-left">
-              {/* Profile Section */}
+              {/* Profile Section - Fixed logo visibility */}
               <div className="mb-8 pb-6 border-b border-white/10">
                 <div className="flex items-center space-x-3 mb-4">
                   <img 
                     src="/lovable-uploads/e4513a62-d401-4e9d-9a53-ed044c87ea1a.png" 
                     alt="Akash Nayar"
-                    className="w-16 h-16 rounded-full object-cover"
+                    className="w-20 h-16 object-contain rounded-lg border border-white/20 bg-white/10"
                   />
                   <div>
                     <div className="text-white font-semibold">I'M AKASH NAYAR</div>

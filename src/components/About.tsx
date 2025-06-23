@@ -72,7 +72,7 @@ const About = () => {
           <div className="animate-slide-in-right order-1 lg:order-2">
             <div className="relative">
               <div className="glass-card p-6 sm:p-8 rounded-2xl animated-border">
-                <div className="w-full h-80 sm:h-96 rounded-xl overflow-hidden mb-4">
+                <div className="w-full aspect-square rounded-xl overflow-hidden mb-4">
                   <img 
                     src="/lovable-uploads/fe7b02fb-6940-45d8-95bf-1a0ccc5e21a7.png" 
                     alt="AKASH NAYAR Portrait" 
