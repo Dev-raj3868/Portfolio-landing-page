@@ -1,5 +1,18 @@
-
 export const professionalServicesProjects = [
+  {
+    title: "HeyInterns",
+    url: "https://heyinterns.com/",
+    description: "Find your dream internship faster, powered by AI - We Have 1000+ Internships",
+    image: "/lovable-uploads/c1c54310-8ab1-4c08-b602-3841a0bf1d36.png",
+    likes: "1000+"
+  },
+  {
+    title: "Websofttech",
+    url: "https://websofttech.site/",
+    description: "Transform Your Digital Future - Empowering businesses with cutting-edge IT solutions",
+    image: "/lovable-uploads/92f5fc6e-ea47-4a59-bbf8-a7e3c1e6d18a.png",
+    likes: "500+"
+  },
   {
     title: "Bishop Law (Criminal Lawyer)",
     url: "https://bishoplawcorp.com/",

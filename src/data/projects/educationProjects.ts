@@ -1,5 +1,25 @@
-
 export const educationProjects = [
+  {
+    title: "DashDevPro",
+    url: "https://dashdevpro.graphy.com/",
+    description: "Advanced development training and mentorship programs",
+    image: "/lovable-uploads/44f3afd9-e1d7-41a0-ba03-c5ad655c8672.png",
+    likes: "500+"
+  },
+  {
+    title: "Stancoast NCLEX Coaching",
+    url: "https://www.stancoastnclexcoaching.com/",
+    description: "Complete NCLEX crash course. A proven way to pass NCLEX in first try",
+    image: "/lovable-uploads/fa121888-a071-47b0-8279-719b36e8f9ff.png",
+    likes: "10000+"
+  },
+  {
+    title: "Train With Shubham",
+    url: "https://trainwithshubham.blog/",
+    description: "DevOps and Technical Training - Transform your career into IT",
+    image: "/lovable-uploads/a9abb3b3-43e1-4662-b096-ece61d174754.png",
+    likes: "5000+"
+  },
   {
     title: "SPICA E-Learning Platform",
     url: "https://learn.spicacbe.com/",

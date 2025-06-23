@@ -1,5 +1,11 @@
-
 export const financeProjects = [
+  {
+    title: "Stockey",
+    url: "https://stockey.io/",
+    description: "Connect your broker accounts, visualize your trades, and create custom analytics dashboards without writing a single line of code",
+    image: "/lovable-uploads/3fc8471e-49b0-40a2-95d1-6ca222f297a4.png",
+    likes: "500+"
+  },
   {
     title: "Share Funds",
     url: "https://karthikr6514.ongraphy.com/",
