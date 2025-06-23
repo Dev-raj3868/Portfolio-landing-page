@@ -1,5 +1,46 @@
-
 export const projectsData = [
+  {
+    title: "SPICA E-Learning Platform",
+    url: "https://learn.spicacbe.com/",
+    description: "Connect with us - Online education platform with distance learning programs",
+    image: "/lovable-uploads/1ffb98dc-daf5-44a2-a94b-15229f347118.png",
+    likes: "500+"
+  },
+  {
+    title: "Share Funds",
+    url: "https://karthikr6514.ongraphy.com/",
+    description: "Take the 1st step for Financial Freedom - Stock Market training courses",
+    image: "/lovable-uploads/fd2e13cd-5874-4692-94e0-9a4456b60ef8.png",
+    likes: "2M+ Subs"
+  },
+  {
+    title: "Get Set Jump",
+    url: "https://www.getsetjump.com/",
+    description: "How To Talk To Anyone With Confidence - Communication skills course",
+    image: "/lovable-uploads/6b2ee534-1da2-419d-8c03-b42e6008884f.png",
+    likes: "500+"
+  },
+  {
+    title: "The Financial Ladder",
+    url: "https://learn.thefinancialladder.com/",
+    description: "We maximize YOUR FINANCIAL GROWTH - Personal mentorship programs",
+    image: "/lovable-uploads/dab4ac51-e966-4848-bd91-e4fc217584fb.png",
+    likes: "500+"
+  },
+  {
+    title: "Learn French Enligne",
+    url: "https://www.learnfrenchenligne.com/",
+    description: "A learning platform that helps you to learn French",
+    image: "/lovable-uploads/9d265181-51fc-4438-b63d-9be85bab7875.png",
+    likes: "500+"
+  },
+  {
+    title: "FnASkills",
+    url: "#",
+    description: "CREATE TRUE BUSINESS IMPACT WITH FNASKILLS - Premier Finance & Accounting Training",
+    image: "/lovable-uploads/df55ebd1-bb84-4160-938c-8979c87c978e.png",
+    likes: "600+"
+  },
   {
     title: "Codingrad",
     url: "https://codingradweb.graphy.com/",
