@@ -6,7 +6,7 @@ const ExperienceTab = () => {
       title: 'Job Experience',
       items: [
         {
-          position: 'Software Engineer',
+          position: 'Website Developer',
           company: 'Opaldoor Softwares',
           duration: 'Jun 2017 - March 2019',
           description: 'Opaldoor Softwares is one of the leading companies in India providing Technological solutions to our customers since our inception. We help our customers transform themselves and we bridge the gap between our customer and their growth.'

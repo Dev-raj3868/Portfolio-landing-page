@@ -28,8 +28,8 @@ const Resume = () => {
   };
 
   return (
-    <section className="py-16 sm:py-20 relative" id="resume">
-      <div className="container mx-auto px-4 sm:px-6">
+    <section className="py-16 sm:py-20 relative px-4 sm:px-6" id="resume">
+      <div className="container mx-auto">
         <div className="text-center mb-12 sm:mb-16">
           <h3 className="text-sm uppercase tracking-wider text-yellow-500 mb-4">5+ YEARS OF EXPERIENCE</h3>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6 sm:mb-8">My Resume</h2>
