@@ -132,5 +132,75 @@ export const projectsData = [
     description: "Language matters",
     image: "/lovable-uploads/f9849734-c202-4d4d-b932-92d37c5f9582.png",
     likes: "500+"
+  },
+  {
+    title: "Renu Vijay Artist (artzncolours)",
+    url: "https://courses.artzncolours.com/",
+    description: "THE STORY BEHIND ARTZ N COLOURS - Artistic journey and Art workshops",
+    image: "/lovable-uploads/9930e7dc-4e95-48c8-adac-c3f316a91e1f.png",
+    likes: "600+"
+  },
+  {
+    title: "Bishop Law (Criminal Lawyer)",
+    url: "https://bishoplawcorp.com/",
+    description: "Bishop Law is a boutique law firm in Singapore in Criminal Defence and Commercial Disputes",
+    image: "/lovable-uploads/c46f18a2-4432-4271-a73c-3de4da75e777.png",
+    likes: "600+"
+  },
+  {
+    title: "ONVID",
+    url: "https://www.onvid.in/",
+    description: "ONVID Solutions Pvt. Ltd. is an eLearning Platform",
+    image: "/lovable-uploads/dba7afb6-5e4e-4f88-ad7b-d01289a4d941.png",
+    likes: "600+"
+  },
+  {
+    title: "Hitesh Nanwani",
+    url: "https://www.hiteshnanwani.com/",
+    description: "Price Actions & Options Trading Course - Learn Daily, Weekly and Monthly Trading",
+    image: "/lovable-uploads/7988cd82-de71-474f-895d-89ba35fc716b.png",
+    likes: "600+"
+  },
+  {
+    title: "Sarbart",
+    url: "https://www.sarbart.com/",
+    description: "Learn Art with Sarb Art - Learn the rules like a pro, so you can break them like an Artist",
+    image: "/lovable-uploads/9d6340c8-4bd4-4dff-b345-bfbef08e52b6.png",
+    likes: "600+"
+  },
+  {
+    title: "iGrow Traders",
+    url: "https://www.igrowtraders.co.in/",
+    description: "Accelerate Your PROFIT SYSTEM - Learn Daily, Weekly and Monthly Trading with Us",
+    image: "/lovable-uploads/788a80ba-5aa3-467f-b389-bc343cfdec13.png",
+    likes: "600+"
+  },
+  {
+    title: "SkillSiya",
+    url: "https://www.skillsiya.com/",
+    description: "Learn In-demand Skills In Hindi - Discover Your Passion",
+    image: "/lovable-uploads/f29c5893-652a-44cb-8d0d-2dc5bc2d4ebf.png",
+    likes: "600+"
+  },
+  {
+    title: "Le Pont Français",
+    url: "https://lepont-francais.com/",
+    description: "Learn French with Professionals - French language learning experience",
+    image: "/lovable-uploads/9ec3c5d2-8317-4121-b81f-7157ca6bd9ec.png",
+    likes: "600+"
+  },
+  {
+    title: "Strategic Security Solutions",
+    url: "https://jeffdean4262.ongraphy.com/",
+    description: "Providing Close Protection, Executive Protection, and Training",
+    image: "/lovable-uploads/aa904cfa-6901-4a36-83b1-54d36e372f5a.png",
+    likes: "600+"
+  },
+  {
+    title: "Zorba The Zen",
+    url: "https://puneetjindal6794.ongraphy.com/",
+    description: "Money-oriented and creative skills EdTech platform",
+    image: "/lovable-uploads/c16a4291-faaf-4e4f-9820-20cc94cb4c1b.png",
+    likes: "2M+ Subs"
   }
 ];
